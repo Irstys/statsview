@@ -1,4 +1,4 @@
-package ru.netology.nmedia.Util
+package ru.netology.statsview.util
 
 import android.content.Context
 import kotlin.math.ceil
