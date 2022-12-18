@@ -122,9 +122,10 @@ class StatsView @JvmOverloads constructor(
             center.y + textPaint.textSize / 4,
             textPaint
         )
-        if (text==100F)
+        if (text==100F) {
             paint.color = colors[0]
             canvas.drawArc(oval, startFrom, 1F, false, paint)
+        }
     }
 
     private fun update() {
